@@ -3,8 +3,8 @@
 namespace MonologTelegram;
 
 use Monolog\Logger;
-use \_class\monolog\TelegramHandler;
-use \_class\monolog\TelegramFormatter;
+use \MonologTelegram\TelegramHandler;
+use \MonologTelegram\TelegramFormatter;
 use Exception;
 
 class Log
