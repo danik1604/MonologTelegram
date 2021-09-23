@@ -1,0 +1,22 @@
+{
+    "name": "danik1604/monolog-telegram",
+    "description": "Monolog telegram handler with timeout settings and custom formatter",
+    "type": "library",
+    "require": {
+        "guzzlehttp/promises": "^1.4",
+        "guzzlehttp/psr7": "^2.0",
+        "psr/http-client": "^1.0",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Daniils",
+            "email": "dan1617laz@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"MonologTelegram\\": "src/"}
+    }
+}
