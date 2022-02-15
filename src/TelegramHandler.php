@@ -182,10 +182,10 @@ class TelegramHandler extends AbstractProcessingHandler
 
             $result = json_decode($response->getBody(), true);
             if ($result['ok'] === false) {
-                throw new RuntimeException('Telegram API error. Description: ' . $result['description']);
+                // throw new RuntimeException('Telegram API error. Description: ' . $result['description']);
             }    
-        } catch (\Exception $e) {
-            throw new RuntimeException('Telegram API error.');
+        } catch (\Exception $e) {            
+            // throw new RuntimeException('Telegram API error.');
         }
     }
 }
